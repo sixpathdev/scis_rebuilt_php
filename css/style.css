@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  /* overflow-x: hidden; */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #011627;
+  border-radius: 0px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+
+body,
+html,
+input {
+  padding: 0;
+  margin: 0;
+  font-family: "Gilroy", sans-serif;
+}
+.hide {
+  display: none;
+}
+a {
+  text-decoration: none;
+}
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+/* input[type="submit"] {
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+} */
+
+.custom_bg {
+  background-color: #011627 !important;
+}
+.custom_bg .navbar-brand, .custom_bg .nav-item .nav-link {
+  color: white;
+}
+.custom_bg .navbar-brand:hover {
+  color: rgb(247, 244, 244);
+  padding:  10px;
+}
+.form-control {
+  padding: 24px 10px !important;
+}
+.dashboard_card {
+  position: relative;
+  left: 12%;
+}
+
+@media screen and (max-width: 900px) {
+  .dashboard_card {
+    position: relative;
+    left: 20% !important;
+  }
+}
